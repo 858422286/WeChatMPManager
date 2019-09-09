@@ -1,0 +1,16 @@
+server:
+    port: 8888
+    tomcat:
+        basedir: upload-tmp/
+logging:
+  level:
+    org.springframework.web: INFO
+    com.github.binarywang.demo.wx.mp: DEBUG
+    me.chanjar.weixin: DEBUG
+wx:
+  mp:
+    configs:
+      - appId: wxb92c7d7ad41acc23
+        secret: e0375814a476c1dd162d39a28a9f67ec
+        token: 123456
+        aesKey: h5MheRpigmTxTNaPZiPnD0bsjvGlEI1TNzEgETPaSCs
